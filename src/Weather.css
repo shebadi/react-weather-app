@@ -9,7 +9,12 @@
 .Weather form {
   margin-bottom: 20px;
 }
-
+.Weather img {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
 .Weather h1 {
   font-size: 24px;
   font-weight: 100;
