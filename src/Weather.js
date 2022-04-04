@@ -10,6 +10,7 @@ export default function Weather(props) {
   function handelResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: Math.round(response.data.main.temp),
       city: response.data.name,
       wind: Math.round(response.data.wind.speed),
@@ -56,7 +57,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
