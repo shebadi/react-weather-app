@@ -11,7 +11,7 @@ export default function App() {
           <a
             href="https://github.com/shebadi/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub{" "}
           </a>
@@ -19,7 +19,7 @@ export default function App() {
           <a
             href="https://moonlit-concha-4ebb01.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
