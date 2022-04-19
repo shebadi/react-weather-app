@@ -1,3 +1,5 @@
+import logo from "./logo.png";
+
 import "./App.css";
 import Weather from "./Weather";
 
@@ -5,6 +7,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
+
         <Weather defaultCity="Tehran" />
         <footer>
           This project was coded by Shabnam Ebadi and is{" "}
